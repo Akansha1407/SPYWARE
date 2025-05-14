@@ -1,12 +1,11 @@
-# 🛡️ Python Keylogger & System Info Extractor (For Educational Use Only)
+🛡️ SPYWARE
 
 This Python project demonstrates multiple techniques used in ethical hacking and system monitoring. It captures keystrokes, extracts system and clipboard information, retrieves browser history, and takes screenshots — all stored in local files for analysis and learning.
 
 > 🚨 **This tool is created strictly for educational and ethical learning purposes. Do not use it on any device without explicit permission.**
 
 ---
-
-## 📌 Features
+ 📌 Features
 
 1. 🔤 Keystroke Logging
 - Captures all keyboard inputs using `pynput`
