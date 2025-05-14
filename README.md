@@ -35,6 +35,7 @@ This Python project demonstrates multiple techniques used in ethical hacking and
 
 
 🧰 Required Libraries
+
 pynput: For capturing keystrokes.
 
 pandas: For handling and saving data (system info, browser history).
